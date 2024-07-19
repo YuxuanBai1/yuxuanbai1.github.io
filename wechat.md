@@ -80,13 +80,13 @@ Wechat-Tools有以下几种用法：
 Q：Wechat-Tools怎么使用？
 
 A：
-  1. 新建一份Python文档
+  1. 新建一份Python文档  
   2. 导入仓库中的"Wechat.py"
      ```python
      import wechat
-     ```
-  3.写代码
-  4.打开并登陆微信
+     ```  
+  3.写代码  
+  4.打开并登陆微信  
   5.运行代码
 
 ### 示例代码  
