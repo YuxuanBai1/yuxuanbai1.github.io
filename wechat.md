@@ -8,9 +8,9 @@ Wechat-Tools 是一个强大的微信工具，旨在帮助开发者快速实现�
 Q：Wechat-Tools怎么安装？
 
 A：  
-方法一：克隆仓库：`https://github.com/YuxuanBai1/Wechat-Tools.git` 
-
-方法二：使用pip：`pip install Wechat`
+  方法一：克隆仓库：`https://github.com/YuxuanBai1/Wechat-Tools.git` 
+  
+  方法二：使用pip：`pip install Wechat`
 
 ## 功能讲解
 
@@ -77,12 +77,13 @@ Wechat-Tools有以下几种用法：
   ```
 
 ## 使用指南  
-那么，知道了以上用法，怎么使用呢？
-1. 新建一份Python文档
-2. 导入仓库中的"Wechat.py"
-3. 写代码
-4. 打开并登录微信
-5. 运行代码
+Q：那么，知道了以上用法，怎么使用呢？
+A：
+  1. 新建一份Python文档
+  2. 导入仓库中的"Wechat.py"
+  3. 写代码
+  4. 打开并登录微信
+  5. 运行代码
 
 ### 示例代码  
   
