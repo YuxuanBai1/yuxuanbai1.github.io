@@ -4,7 +4,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     var password = document.getElementById('password').value;  
     if (username === 'yuxuanbai' && password === 'admin123456') {  
         // 验证成功，自动跳转到指定网页  
-        window.location.href = 'index.html'; 
+        window.location.href = 'manage.html'; 
     } else {   
         alert('用户名或密码错误！');  
     }  
