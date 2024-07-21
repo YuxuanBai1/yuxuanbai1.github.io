@@ -77,24 +77,11 @@ Wechat-Tools有以下几种用法：
   ```
 
 ## 使用指南  
-Q：Wechat-Tools怎么使用？
+Q：Wechat-Tools怎么使用?
 
-A：
-    1.安装Wechat-Tools
-    
-    2.新建一份Python文档并导入库
-    
-    3.写代码
-    
-    4.登陆微信
-  
+A：  
+    1.安装Wechat-Tools  
+    2.新建一份文档并导入库  
+    3.写代码  
+    4.登陆微信  
     5.运行代码
-
-### 示例代码  
-  
-```javascript  
-const myApp = require('myapp');  
-  
-myApp.doSomething().then(() => {  
-  console.log('Done!');  
-});
