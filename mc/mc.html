@@ -1,1 +1,70 @@
- 
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>mc资源分享</title>  
+<style>  
+    body, html {  
+        height: 100%;  
+        margin: 0;  
+        font-family: Arial, sans-serif;  
+    }  
+    .background {  
+        /* 使用背景图片，并设置其大小覆盖整个屏幕 */  
+        background-image: url('bg.jpg'); /* 替换为你的图片URL */  
+        background-position: center;  
+        background-repeat: no-repeat;  
+        background-size: cover;  
+        height: 100%;  
+        display: flex;  
+        flex-direction: column;  
+        align-items: center;  
+        justify-content: center;  
+        text-align: center;  
+    }  
+    .title {  
+        color: white;  
+        font-size: 36px;  
+    }  
+    .button {  
+        border: none;  
+        color: white;  
+        padding: 10px 20px;  
+        text-align: center;  
+        text-decoration: none;  
+        display: inline-block;  
+        font-size: 16px;  
+        margin: 20px;  
+        cursor: pointer;  
+        border-radius: 10px;  
+        background-color: rgba(255, 0, 0, 0.5); /* 半透明红色背景 */  
+        transition: background-color 0.3s;  
+    }  
+    .button:hover {  
+        background-color: rgba(255, 0, 0, 0.7); /* 鼠标悬停时加深颜色 */  
+    }  
+    .footer {  
+        position: absolute;  
+        bottom: 0;  
+        width: 100%;  
+        color: white;  
+        text-align: center;  
+        padding: 10px 0;  
+        background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */  
+    }  
+</style>  
+</head>  
+<body>  
+  
+<div class="background">  
+    <div class="title">下载站</div>  
+    <button class="button" onclick="alert('点击按钮1');">按钮1</button>  
+    <button class="button" onclick="alert('点击按钮2');">按钮2</button>  
+    <div class="footer">  
+        &copy; 2023 版权所有  
+    </div>  
+</div>  
+  
+</body>  
+</html> 
